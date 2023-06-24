@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-07T11:09:41.312Z",
+        "line": 3,
+        "name": "login page credential",
+        "description": "",
+        "id": "hotel-login-application;login-page-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3304000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user can able to launch the browser",
+            "match": {
+              "location": "org.stepdef.Stepdefinit.user_can_able_to_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user can able to write the username",
+            "match": {
+              "location": "org.stepdef.Stepdefinit.user_can_able_to_write_the_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 351000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user can able to write the password",
+            "match": {
+              "location": "org.stepdef.Stepdefinit.user_can_able_to_write_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user can able to login the page",
+            "match": {
+              "location": "org.stepdef.Stepdefinit.user_can_able_to_login_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Hotel login application",
+    "description": "",
+    "id": "hotel-login-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/org/hotelapp/feature/Hotel.feature",
+    "tags": []
+  }
+]
